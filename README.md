@@ -7,3 +7,5 @@ Current Weather Display: Shows the current temperature, city, weather descriptio
 5-Day Forecast: Offers a detailed forecast for the next five days, including maximum and minimum temperatures.
 Responsive Design: The app is designed to be visually appealing and functional across a range of devices.
 Icons and Styling: Uses Font Awesome icons and custom styles to enhance the weather presentation, ensuring a clear and modern look.
+![image](https://github.com/user-attachments/assets/bbfa6942-4da3-4a8a-8a90-0e9dabe3edd7)
+
