@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+body > .data {
+    background-color: #04a8f4;
+    height: 60%;
+
+}
+.data > .container {
+    padding: 48px 20px;
+}
+.data > .location {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.data > .container > .address {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 0 auto 0 auto;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.data > .container > .address > * {
+    text-align: center;
+}
+.data > .container > .address > i {
+    font-size: 48px;
+    color: #ffffff;
+}
+.data > .container > .address > .temperature {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+.data > .container > .address > .city {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+.data > .container > .address > .description {
+    font-size: 14px;
+    color: #ffffff;
+}
+.data > .container > .weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    
+
+}
+.data > .container > .weather > div {
+    background-color: #ffffff;
+    padding: 12px 16px;
+    color: #04a8f4;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.forcast {
+    background-color: #ffffff;
+    height: 40%;
+    padding: 32px;
+    color: #676767;
+}
+.forcast .title {
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+.forcast .weekdays {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+.forcast .weekdays .day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.forcast .weekdays .day > .data {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.forcast .weekdays .day > .data > i {
+    font-size: 28px;
+    margin-bottom: 28px;
+
+}
+.forcast .weekdays .day > .data > .name {
+    font-size: 18;
+    font-weight: 700;
+}
+.forcast .weekdays .day > .temperatures { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.forcast .weekdays .day > .temperatures > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+
+}
+.forcast .weekdays .day > .temperatures > .max > i {
+    color: #113cca;
+}
+.forcast .weekdays .day > .temperatures > .min > i{
+    color: #ca111a;
+}
+
